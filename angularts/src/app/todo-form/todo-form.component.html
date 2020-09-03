@@ -1,0 +1,9 @@
+<div>
+  <input
+    type="text"
+    placeholder="Add todo title..."
+    [(ngModel)]="title"
+    (keydown.enter)="addTodo()"
+  >
+  <button class="waves-effect waves-light btn" (click)="addTodo()">Add todo</button>
+</div>
